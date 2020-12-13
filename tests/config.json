@@ -1,0 +1,18 @@
+{
+    "buttonMapping": {
+        "A": "D",
+        "B": "X",
+        "Down": "Down",
+        "L": "W", 
+        "Left": "Left",
+        "R": "R", 
+        "Right": "Right", 
+        "Select": "C", 
+        "Start": "Space", 
+        "Up": "Up", 
+        "X": "E", 
+        "Y": "S"
+    },
+    "device": "/dev/ttyACM0",
+    "controllerCode": "SNIQHMORGEFD"
+}
