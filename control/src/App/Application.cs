@@ -11,7 +11,7 @@ namespace DSController.App
     class Application
     {
         protected Action Action = Action.Start; // Default action is to start the app
-        protected string ConfigPath;
+        protected string ConfigPath = "config.json"; // Default config file location
         protected Config Configuration;
         protected KeyboardWindow Window;
         protected SerialConnector SerialConnector;

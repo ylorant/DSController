@@ -1,6 +1,7 @@
 using System;
 using System.IO;
 using System.Json;
+using System.Text.Json;
 using System.Linq;
 using System.Collections.Generic;
 using DSController.Exception;
@@ -105,7 +106,13 @@ namespace DSController
         public static string GenerateSkeleton()
         {
             Config emptyConfig = new Config();
-            return emptyConfig.ToJson().ToString();
+            string configJson = emptyConfig.ToJson().ToString();
+
+            JsonElement jsonElement = JsonSerializer.Deserialize<JsonElement>(configJson);
+            JsonSerializerOptions options = new JsonSerializerOptions();
+            options.WriteIndented = true;
+
+            return JsonSerializer.Serialize(jsonElement, options);
         }
 
         /// <summary>
