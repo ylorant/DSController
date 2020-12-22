@@ -16,7 +16,7 @@ provided program loaded into it.
 
 The arduino part has been developed originally for an Arduino/Sparkfun Pro Micro. It can probably be adapted on other Arduino-compatible boards, such as the Arduino Pro Mini. However, the current program assumes a direct connection to the control program, so using something as a FTDI or UART to the board may need some adaptation.
 
-The pinout to connect each port can be whatever pins you can fit between pin 2 and 21 (A3), the programs having been made to be pin-agnostic. Pinout diagram for the Pro Micro can be found [here](https://cdn.sparkfun.com/assets/9/c/3/c/4/523a1765757b7f5c6e8b4567.png). The probe function of the control program will help you define the controller code for the button-pin mapping you made on the actual console. On the console, you should connect the Pro Micro pins using Kynar cables to the given test pads on the console motherboard :
+The pinout to connect each port can be whatever pins you can fit between pin 2 and 21 (A3), the programs having been made to be pin-agnostic. Pinout diagram for the Pro Micro can be found [here](https://cdn.sparkfun.com/assets/9/c/3/c/4/523a1765757b7f5c6e8b4567.png). The probe function of the control program will help you define the controller code for the button-pin mapping you made on the actual console. On the console, you should connect the Pro Micro pins using Kynar wire to the given test pads on the console motherboard :
 
 | Test pad name | Button |
 | ------------- | ------ |
