@@ -37,7 +37,7 @@ For the position of those test pads on the Nintendo DS motherboard, you can refe
 
 The placement of the board itself should be just above the earphone jack and below the WiFi board, that way it leaves space for a Loopy capture card above. Some cutting of the bottom shell will be necessary for the board, USB port and cables. See [this picture](https://i.imgur.com/w6i4FmJ.jpg) for an installation example (here using thick double sided tape). 
 
-*Note: Using this configuration, you might have problems screwing back right-side motherboard screw. Consider screwing it back on before sticking the board.*
+*Note: Using this configuration, you might have problems screwing back the right-side motherboard screw. Consider screwing it back on before sticking the board.*
 
 ### Flashing
 
